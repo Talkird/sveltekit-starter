@@ -1,6 +1,11 @@
 <script lang="ts">
-    import Button from "$lib/components/Button.svelte";
+    import { register } from "$lib/services/auth";
+
+    const handleRegister = async () => {
+        await register({username: "Juan", password: "password", email: "juan123@gmail.com"});
+    }
+
 </script>
 
 <h1 class="font-semibold text-5xl">Welcome to SvelteKit</h1>
-<Button>Hello!</Button>
+<button onclick={handleRegister} class="btn btn-primary">Hello!</button>
