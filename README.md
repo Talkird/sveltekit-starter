@@ -1,6 +1,7 @@
 # SvelteKit Starter
 
-- Mongoose
+- Prisma
+- MongoDB
 - Tailwind
 - DaisyUI
 - Lucide
