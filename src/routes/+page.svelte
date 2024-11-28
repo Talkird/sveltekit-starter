@@ -2,7 +2,7 @@
     import { register } from "$lib/services/auth";
 
     const handleRegister = async () => {
-        await register({username: "Juan", password: "password", email: "juan123@gmail.com"});
+        await register({username: "Juan", password: "password", email: "juan@gmail.com"});
     }
 
 </script>
